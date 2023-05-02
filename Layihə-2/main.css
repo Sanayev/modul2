@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.qutu {
+    width: 336px;
+    top: 232px;
+    left: 408px;
+    border-radius: 10px;
+    border: 1px solid #c4c4c4;
+}
+
+.hisse1 {
+    width: 335px;
+    height: 28px;
+    background-color: yellow;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+    text-transform: capitalize;
+    margin: 13px 0;
+}
+
+.siyahi {
+    padding: 5px;
+    width: 286px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #c4c4c4;
+    padding-right: 40px;
+}
+
+.add {
+    position: relative;
+    width: 150px;
+    margin: 10px auto;
+}
+
+.add-btn {
+    width: 140px;
+    height: 42px;
+    background-color: #833AE0;
+    border-radius: 71px;
+    color: white;
+    border: none;
+    padding-left: 20px;
+    margin-top: 9px;
+    cursor: pointer;
+}
+
+.span {
+    width: 42px;
+    height: 42px;
+    background-color: #9953f1;
+    border-radius: 71px;
+    color: white;
+    position: absolute;
+    top: 0;
+    margin-top: 9px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+.qutu3 {
+    text-align: center;
+}
+
+.silme {
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url('./img/Group\ 77.svg');
+    position: absolute;
+    top: 9px;
+    right: 40px;
+}
+
+.silme:hover {
+    background-image: url('./img/Group\ 70.svg');
+}
+
+.duyme {
+    text-align: right;
+    margin-right: 40px;
+}
+
+.sekil1 {
+    width: 25px;
+    height: 25px;
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url('./img/Group\ 74.svg');
+}
+
+.sekil1:hover {
+    background-image: url('./img/Group\ 73.svg');
+}
+
+.sekil2 {
+    width: 25px;
+    height: 25px;
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url('./img/Group\ 90.svg');
+}
+
+.sekil2:hover {
+    background-image: url('./img/Group\ 91.svg');
+}
+
+.qutu4 {
+    position: relative;
+    margin: 2px 0;
+}
